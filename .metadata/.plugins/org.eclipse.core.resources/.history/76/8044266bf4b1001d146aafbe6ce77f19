@@ -1,0 +1,62 @@
+package bancoDio.contas;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+	public static void main(String[] args) {
+		        // Cria uma lista de contas
+		        List<Conta> contas = new ArrayList<>();
+
+		        // Cria as contas e adiciona na lista
+		        Cliente neildo = new Cliente();
+		        neildo.setNome("Neildo Inacio do nascimento junior");
+		        Conta contaCorrente1 = new ContaCorrente(neildo);
+		        Conta contaPoupanca1 = new ContaPoupanca(neildo);
+		        contas.add(contaCorrente1);
+		        contas.add(contaPoupanca1);
+
+		        Cliente antonio = new Cliente();
+		        antonio.setNome("Antonio do nascimento");
+		        Conta contaCorrente2 = new ContaCorrente(antonio);
+		        Conta contaPoupanca2 = new ContaPoupanca(antonio);
+		        contas.add(contaCorrente2);
+		        contas.add(contaPoupanca2);
+		        
+		        Cliente Sheila = new Cliente();
+				Sheila.setNome("Sheila Thais");
+				Conta contaCorrente3 = new ContaCorrente(Sheila);
+				
+				Cliente Claudia = new Cliente();
+				Claudia.setNome("Claudia Cunha");
+				Conta contaCorrente4 = new ContaCorrente(Claudia);
+				Conta contaPoupanca4 = new ContaPoupanca(Claudia);
+				
+				Cliente Marcelo = new Cliente();
+				Marcelo.setNome("Marcelo junior");
+				Conta contaCorrente5 = new ContaCorrente(Marcelo);
+				Conta contaPoupanca5 = new ContaPoupanca(Marcelo);
+				
+				Cliente Michele = new Cliente();		
+				Michele.setNome("Michele da Silva");
+				Conta contaPoupanca6 = new ContaPoupanca(Michele);
+				
+				Cliente Carlos = new Cliente();		
+				Carlos.setNome("Carlos Brandão");
+				Conta contaCorrente7 = new ContaCorrente(Carlos);
+				Conta contaPoupanca7 = new ContaPoupanca(Carlos);
+				
+				Cliente Chris = new Cliente();
+				Chris.setNome("Chris Bumstead");
+				Conta contaCorrente8 = new ContaCorrente(Chris);
+				Conta contaPoupanca8 = new ContaPoupanca(Chris);
+
+		        
+
+		        // Imprime o extrato de todas as contas
+		        for (Conta conta : contas) {
+		            conta.imprimirExtrato();
+		        }
+	    }
+}
+

@@ -1,0 +1,5 @@
+package bancoDio.contas;
+
+public interface ServiceContas {
+
+}

@@ -1,0 +1,6 @@
+package bancoDio.contas;
+
+public class Banco {
+	
+	private String nome;
+}

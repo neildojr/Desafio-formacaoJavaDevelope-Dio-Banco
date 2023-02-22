@@ -1,0 +1,12 @@
+package bancoDio.contas;
+
+public interface ServiceContas {
+	
+	private void depositar(double valor);
+	
+	private void sacar(double valor);
+
+	private void transferir(double valor, conta contaDesino);
+	
+	private void imprimirExtrato();
+}

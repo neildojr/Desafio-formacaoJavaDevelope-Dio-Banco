@@ -1,0 +1,29 @@
+package bancoDio.contas;
+
+public class ContaPoupanca implements IConta {
+
+	@Override
+	public void depositar(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void sacar(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void transferir(double valor, conta contaDesino) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void imprimirExtrato() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

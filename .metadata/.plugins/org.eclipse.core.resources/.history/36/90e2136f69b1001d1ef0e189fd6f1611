@@ -1,0 +1,7 @@
+package bancoDio.contas;
+
+public interface ServiceContas {
+	
+	private void sacar(double valor);
+	
+}

@@ -1,0 +1,10 @@
+package bancoDio;
+
+public class OperacaoFinanceiraException extends Exception {
+
+	private void TransferenciaExceptiont() {
+		// TODO Auto-generated method stub
+
+	}
+}
+

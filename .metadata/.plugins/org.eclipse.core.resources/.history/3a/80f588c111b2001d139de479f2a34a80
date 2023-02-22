@@ -1,0 +1,7 @@
+package bancoDio;
+
+public class OperacaoFinanceiraException extends Exception {
+
+
+}
+

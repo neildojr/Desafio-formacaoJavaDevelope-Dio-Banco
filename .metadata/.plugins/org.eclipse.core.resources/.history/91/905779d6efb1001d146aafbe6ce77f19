@@ -1,0 +1,16 @@
+package bancoDio.contas;
+
+public class Main {
+	public static void main(String[] args) {
+		Cliente Neildo = new Cliente();
+		Neildo.setNome("Neildo");
+		
+		
+		Conta cc = new ContaCorrente(Neildo);
+		Conta cp = new ContaPoupanca(Neildo);
+		
+		cc.imprimirExtrato();
+		cp.imprimirExtrato();
+	}
+
+}

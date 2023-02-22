@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="bancoDio.contas.ServiceContas"/>
+    <fullyQualifiedTypeName name="bancoDio.contas.IConta"/>
+    <fullyQualifiedTypeName name="bancoDio.contas.Conta"/>
+    <fullyQualifiedTypeName name="javax.sound.midi.Sequence"/>
+    <fullyQualifiedTypeName name="bancoDio.contas.ContaPoupanca"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="bancoDio.contas.Cliente"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="bancoDio.contas.ContaCorrente"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="bancoDio.OperacaoFinanceiraException"/>
+</qualifiedTypeNameHistroy>

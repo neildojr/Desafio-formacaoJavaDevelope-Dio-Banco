@@ -1,0 +1,9 @@
+package bancoDio.contas;
+
+public class TransferenciaException extends Exception {
+
+    public TransferenciaException(String message) {
+        super(message);
+    }
+
+}

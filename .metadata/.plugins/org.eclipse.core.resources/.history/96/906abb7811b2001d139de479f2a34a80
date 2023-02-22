@@ -1,0 +1,10 @@
+package bancoDio;
+
+public class OperacaoFinanceiraException extends Exception {
+
+	public OperacaoFinanceiraException(String string) {
+
+	}
+
+}
+

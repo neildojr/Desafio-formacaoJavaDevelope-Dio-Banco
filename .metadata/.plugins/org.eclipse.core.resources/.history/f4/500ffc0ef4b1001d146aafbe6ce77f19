@@ -1,0 +1,47 @@
+package bancoDio.contas;
+
+public class Main {
+	public static void main(String[] args) {
+		Cliente Neildo = new Cliente();
+		Neildo.setNome("Neildo Inacio do nascimento junior");
+		Conta cc = new ContaCorrente(Neildo);
+		Conta cp = new ContaPoupanca(Neildo);
+		
+		Cliente Antonio = new Cliente();
+		Antonio.setNome("Antonio do nascimento");
+		Conta cc = new ContaCorrente(Antonio);
+		Conta cp = new ContaPoupanca(Antonio);
+		
+		Cliente Sheila = new Cliente();
+		Sheila.setNome("Sheila Thais");
+		Conta cc = new ContaCorrente(Sheila);
+		
+		Cliente Claudia = new Cliente();
+		Claudia.setNome("Claudia Cunha");
+		Conta cc = new ContaCorrente(Claudia);
+		Conta cp = new ContaPoupanca(Claudia);
+		
+		Cliente Marcelo = new Cliente();
+		Marcelo.setNome("Marcelo junior");
+		Conta cc = new ContaCorrente(Neildo);
+		Conta cp = new ContaPoupanca(Neildo);
+		
+		Cliente Michele = new Cliente();		
+		Michele.setNome("Michele da Silva");
+		Conta cp = new ContaPoupanca(Michele);
+		
+		Cliente Carlos = new Cliente();		
+		Carlos.setNome("Carlos Brandão");
+		Conta cc = new ContaCorrente(Carlos);
+		Conta cp = new ContaPoupanca(Carlos);
+		
+		Cliente Chris = new Cliente();
+		Chris.setNome("Chris Bumstead");
+		Conta cc = new ContaCorrente(Chris);
+		Conta cp = new ContaPoupanca(Chris);
+		
+		cc.imprimirExtrato();
+		cp.imprimirExtrato();
+	}
+
+}

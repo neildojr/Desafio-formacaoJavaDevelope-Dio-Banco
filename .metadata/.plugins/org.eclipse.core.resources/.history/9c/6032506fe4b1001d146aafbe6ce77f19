@@ -1,0 +1,35 @@
+package bancoDio.contas;
+
+public abstract class Conta implements IConta {
+	
+	protected static int AGENCIA_PADRAO  = 00001;
+	
+	protected int agencia;
+	protected int numero;
+	protected double valor;
+	
+	@Override
+	public void sacar(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void transferir(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void depositar(double valor, Conta contaDestino) {
+		// TODO Auto-generated method stub
+	}
+	
+	public int getAgencia() {
+		return agencia;
+	}
+	public int getNumero() {
+		return numero;
+	}
+	public double getValor() {
+		return valor;
+	}
+}

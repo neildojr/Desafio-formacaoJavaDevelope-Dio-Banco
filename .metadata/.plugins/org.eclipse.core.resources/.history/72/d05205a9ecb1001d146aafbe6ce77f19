@@ -1,0 +1,11 @@
+package bancoDio.contas;
+
+public class ContaPoupanca extends Conta {
+
+	@Override
+	public void imprimirExtrato() {
+		System.out.println(" -Extrato da conta Poupanca -");
+	}	
+
+	}
+
